@@ -1,0 +1,20 @@
+.award {
+    display: flex;
+    align-items: center;
+    gap: 10px;}
+  
+  .award-img {
+    width: 1px;
+    height: 1px;
+  }
+  
+  .award-title {
+    font-size: 20px;
+    margin: 0;
+  }
+  
+  .award-text {
+    font-size: 16px;
+    margin: 0;
+  }
+  

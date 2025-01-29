@@ -1,0 +1,57 @@
+#about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-image: url(./src/assets/G.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 500px;
+    padding: 20px 0px;
+  }
+  .about {
+    width: 200vw;
+    padding: 0px 50px 0px 50px;
+    text-align: right;
+    font-size: 20px;
+  }
+  
+  .knifeimage {
+    margin-left: 50px;
+    width: 20%;
+    
+  }
+  .history {
+    width: 200vw;
+    margin-right: 10px;
+    padding: 0px 50px 0px 20px;
+    font-size: 20px;
+  }
+  
+  .history > h1,
+  .about > h1 {
+    font-size: 50px;
+    color: rgb(253, 231, 151);
+  }
+  .history > button,
+  .about > button {
+    margin-top: 50px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .about {
+        width: 90vw;
+        padding: 0px;
+      }
+      .history {
+        width: 90vw;
+        padding: 0px;
+        margin-left: 5vw;
+      }
+    #about {
+      display: block;
+      background-size: 400px;
+    }
+  
+   
+  }

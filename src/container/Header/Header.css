@@ -1,0 +1,134 @@
+#home {
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    margin-top: 30px;
+    scroll-margin-top: 123px;
+    color: white;
+    padding: 0 2rem;
+    gap: 50px;
+  }
+  
+  .info {
+    width: 35%;
+  }
+  
+  .info :first-child {
+    font-size: 25px;
+    font-family: "Cormorant Upright", serif;
+    color: rgb(220, 202, 135);
+  }
+  
+  p > img {
+    width: 60px;
+    margin: 1rem 0;
+  }
+  
+  p + h1 {
+    font-size: 100px;
+    color: rgb(220, 202, 135);
+    margin: 30px 0px;
+    font-weight: 600;
+    font-family: "Cormorant Upright", serif;
+    line-height: 1;
+  }
+  
+  h1 + p {
+    font-size: 20px;
+    line-height: 26px;
+    margin-bottom: 30px;
+    opacity: 0.7;
+  }
+  
+  button {
+    background-color: rgb(220, 202, 135);
+    color: black;
+    margin-top: 20px;
+    padding: 0.7rem 1.5rem;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: rgb(200, 182, 115);
+  }
+  
+  .image {
+    width: 2px;
+    padding: 55px 0px;
+    position: relative;
+  }
+  .welcome{
+    width: 500px;
+    height: auto;
+  }
+  
+  .image::after {
+    content: "";
+    position: absolute;
+    top: 20px;
+    right: -20px;
+    bottom: 20px;
+    left: 20px;
+    z-index: 0;
+  }
+  
+  #homeimage {
+    height: 550px;
+    object-fit: cover;
+    position: relative;
+    z-index: 1;
+  }
+  
+  @media screen and (max-width: 1300px) {
+    .info {
+      width: 40%;
+    }
+    .image {
+      width: 40%;
+    }
+    #homeimage {
+      height: 450px;
+    }
+  }
+  
+  @media screen and (max-width: 950px) {
+    #home {
+      display: block;
+      padding-top: 30px;
+    }
+    .info {
+      width: 90%;
+      margin-left: 5%;
+    }
+    .image {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+    #homeimage {
+      margin-top: 20px;
+      height: 550px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    #home {
+      margin-top: 100px;
+      scroll-margin-top: 83px;
+    }
+  
+    p + h1 {
+      font-size: 70px;
+    }
+    #homeimage {
+      height: 400px;
+    }
+  }
+  
+  

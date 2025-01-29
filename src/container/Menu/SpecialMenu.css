@@ -1,0 +1,43 @@
+.title-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    gap: 5px; 
+  }
+  .imag {
+    display: flex;
+    justify-content: center; /* Horizontally center */
+    align-items: center; /* Vertically center */
+    height: 400px; /* Adjust the height to fit your needs */
+  }
+  
+  .abhi22 {
+    width: 300px; /* Optional, adjust as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  .subtitle {
+    font-size: 20px;
+    color: #ede7e7;
+    margin: 0;
+  }
+  
+
+  .title {
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0;
+    color: rgb(253, 231, 151);
+  }
+
+  .name11{
+    width: 200px;
+    height: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    gap: 5px; 
+  }
+  
